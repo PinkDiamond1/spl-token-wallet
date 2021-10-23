@@ -99,7 +99,7 @@ export default function DepositDialog({
             {!displaySolAddress && isAssociatedToken === false ? (
               <DialogContentText>
                 This address can only be used to receive{' '}
-                {tokenSymbol ?? abbreviateAddress(mint)}. Do not send SOL to
+                {tokenSymbol ?? abbreviateAddress(mint)}. Do not send SAFE to
                 this address.
                 <br />
                 <b style={{ color: 'red' }}>WARNING</b>: You are using a deprecated account type. Please migrate your tokens. Ideally, create a new wallet. If you send to this address from a poorly implemented wallet, you may burn tokens.
@@ -205,7 +205,7 @@ function SolletSwapDepositAddress({ balanceInfo, swapInfo, ethAccount }) {
         <DialogContentText>
           {coin.erc20Contract ? 'ERC20' : 'Native'} {coin.ticker} can be
           converted to {mint ? 'SPL' : 'native'} {tokenName} via MetaMask. To
-          convert, you must already have SOL in your wallet.
+          convert, you must already have SAFE in your wallet.
         </DialogContentText>
         <DialogContentText>
           Estimated withdrawal transaction fee:
