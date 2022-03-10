@@ -1884,10 +1884,17 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@safecoin/web3.js@^1.29.3":
-  version "1.29.3"
-  resolved "https://registry.yarnpkg.com/@safecoin/web3.js/-/web3.js-1.29.3.tgz#6be1217e03ea530d431fdad69702581d81815ba6"
-  integrity sha512-PRTs9HRGFVlriTyfNtsfr+fN/FjFxGLzNeVbMrIug70v2cwEfQMpAfHkumxQwjsWl8puWPJ9gnP2hk5vgDJ15g==
+"@safecoin/safe-token-registry@^0.2.282":
+  version "0.2.282"
+  resolved "https://registry.yarnpkg.com/@safecoin/safe-token-registry/-/safe-token-registry-0.2.282.tgz#74857f87d83390fd73f7fa1d8ac969ca16c9c98e"
+  integrity sha512-XLCzHcb1SsyNFsl2lN640IdFUroGyIbvCWN++gX7otnQR7YcCQpknvsKwjGQfOT2WxdKVzvjnQbkol22x0Ie0g==
+  dependencies:
+    cross-fetch "3.0.6"
+
+"@safecoin/web3.js@^1.29.4":
+  version "1.29.4"
+  resolved "https://registry.yarnpkg.com/@safecoin/web3.js/-/web3.js-1.29.4.tgz#7593735166e5b3eca81fb10d0db38df280b8e003"
+  integrity sha512-IPU1EL30feLyDw6qDMjKXP9r70KPQI52n1Sh9R9QXD4EjBRQs0DJm7dVqSGjJiMrqvM4p8I6rGMwljtSPdr5vA==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@solana/buffer-layout" "^3.0.0"
@@ -1949,7 +1956,7 @@
   dependencies:
     buffer "~6.0.3"
 
-"@solana/spl-token-registry@^0.2.102", "@solana/spl-token-registry@^0.2.214":
+"@solana/spl-token-registry@^0.2.214":
   version "0.2.1166"
   resolved "https://registry.yarnpkg.com/@solana/spl-token-registry/-/spl-token-registry-0.2.1166.tgz#7eb804ce07a0a7f1290339f02764ccf3af3b937c"
   integrity sha512-WizabFUtfz8s1Psn3EWn0vWrXlAAMv3GD9aTBXdMacBnqX+7GKMXy7qIwt55Er8GZ/lvhvumZEPWN2Ygkb3jsQ==

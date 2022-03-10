@@ -1,4 +1,4 @@
-import { MARKETS } from '@project-serum/serum';
+import { MARKETS } from '@safely-project/serum';
 import { PublicKey } from '@safecoin/web3.js';
 import { MAINNET_URL } from './connection';
 

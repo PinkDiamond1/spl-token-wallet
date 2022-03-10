@@ -2,8 +2,9 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import LabelValue from './LabelValue';
 import { useWallet, useWalletPublicKeys } from '../../utils/wallet';
-import { TOKEN_MINTS } from '@project-serum/serum';
+import { TOKEN_MINTS } from '@safely-project/serum';
 
+console.log("TOKEN_MINTS ", TOKEN_MINTS)
 const TYPE_LABELS = {
   initializeMint: 'Initialize mint',
   initializeAccount: 'Initialize account',
