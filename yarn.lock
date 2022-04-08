@@ -1897,10 +1897,10 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@safecoin/safe-token-registry@^0.2.282":
-  version "0.2.282"
-  resolved "https://registry.yarnpkg.com/@safecoin/safe-token-registry/-/safe-token-registry-0.2.282.tgz#74857f87d83390fd73f7fa1d8ac969ca16c9c98e"
-  integrity sha512-XLCzHcb1SsyNFsl2lN640IdFUroGyIbvCWN++gX7otnQR7YcCQpknvsKwjGQfOT2WxdKVzvjnQbkol22x0Ie0g==
+"@safecoin/safe-token-registry@^0.2.291":
+  version "0.2.291"
+  resolved "https://registry.yarnpkg.com/@safecoin/safe-token-registry/-/safe-token-registry-0.2.291.tgz#599c0a013543fca7cc8b7cba29128acfff73b20e"
+  integrity sha512-HvZQEFE5kGOXNjOSpX7JST/fKfCfMNjqLWsvAYRyVmHP+GarprCEMfBr/rge6HtQ6Og1FcF7Pr978ksQIZcBOA==
   dependencies:
     cross-fetch "3.0.6"
 
@@ -2046,9 +2046,9 @@
     buffer "~6.0.3"
 
 "@solana/spl-token-registry@^0.2.214":
-  version "0.2.3300"
-  resolved "https://registry.yarnpkg.com/@solana/spl-token-registry/-/spl-token-registry-0.2.3300.tgz#bd6a338d7e63f98e9ef29f1fb16b217ee6183dde"
-  integrity sha512-ac1XUOTLYzjC99hYoNhLw416WarBtzvCHO/dVmSiWgeaWwfWgBNV8n1LJ3MS/bkwWjWIN4SfPs8/YY5osbhbxA==
+  version "0.2.3303"
+  resolved "https://registry.yarnpkg.com/@solana/spl-token-registry/-/spl-token-registry-0.2.3303.tgz#2b0de5311e2cdd1b65237f928715799754e40dde"
+  integrity sha512-dRnfo0WrdKOmU8cTr5h0czl4IHcXIqAZV1NlnJsTgxNJ/Avjh7DV8hFMIDDGD/tg++Rsaz8Ek6An3yz8TpbuOw==
   dependencies:
     cross-fetch "3.0.6"
 
